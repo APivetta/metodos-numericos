@@ -31,4 +31,4 @@ function Aext = descendente(A,b)
 	Aext(n,n+1) = Aext(n,n+1)/Aext(n,n);
 endfunction
 
-A = gauss([-2,0,-2;2,2,4;0,1,0],[-10,16,0])
+x = gauss([-2,0,-2;2,2,4;0,1,0],[-10,16,0])
