@@ -1,0 +1,24 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Introducci\'on}{3}{section.1}
+\contentsline {section}{\numberline {2}Aproximaci\'on num\'erica y errores}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}M\'etodo con mayor error}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}M\'etodo con menor error}{4}{subsection.2.2}
+\contentsline {section}{\numberline {3}Ceros de funciones}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}Punto Fijo}{5}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Regula Falsi}{5}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Secante}{6}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Newton Raphson}{6}{subsection.3.4}
+\contentsline {section}{\numberline {4}Interpolaci\'on}{7}{section.4}
+\contentsline {subsection}{\numberline {4.1}Lagrange}{7}{subsection.4.1}
+\contentsline {section}{\numberline {5}Aproximaci\'on de funciones}{7}{section.5}
+\contentsline {subsection}{\numberline {5.1}Regresion lineal}{7}{subsection.5.1}
+\contentsline {section}{\numberline {6}Integraci\'on num\'erica}{8}{section.6}
+\contentsline {subsection}{\numberline {6.1}Trapecios}{8}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Romberg}{8}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Simpson}{9}{subsection.6.3}
+\contentsline {section}{\numberline {7}Ecuaciones diferenciales}{9}{section.7}
+\contentsline {subsection}{\numberline {7.1}Euler}{9}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Euler Mejorado}{10}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Runge-Kutta}{11}{subsection.7.3}
+\contentsline {section}{\numberline {8}Sistemas de ecuaciones}{11}{section.8}
+\contentsline {subsection}{\numberline {8.1}Gauss}{11}{subsection.8.1}

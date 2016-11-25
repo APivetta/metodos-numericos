@@ -16,5 +16,7 @@ function [x,t] = regulaFalsi(a,b,f,eps,n)
 	endwhile
 endfunction
 
-[x,t] = regulaFalsi(1,2,"x^3 + 4*x^2 - 10",10^-6,20)			
-[x,t] = regulaFalsi(0,1,"x - cos(x)",10^-6,20)			
+[x1,t] = regulaFalsi(1,2,"x^3 + 4*x^2 - 10",10^-6,20);
+[x2,t] = regulaFalsi(0,1,"x - cos(x)",10^-6,20);
+
+[x1,x2]

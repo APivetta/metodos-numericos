@@ -1,0 +1,118 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[spanish]{babel} %Paquetes de idioma
+\usepackage[latin1]{inputenc} %Paquetes de idioma
+\usepackage{graphicx} % Paquete para ingresar gráficos
+\usepackage{hyperref}
+\usepackage{fancybox}
+\usepackage{color}
+\usepackage{listings}
+\lstset{language=Octave,xleftmargin=.20in}
+
+%Encabezado y Pié de página
+\input{EncabezadoyPie.tex}
+%Carátula del Trabajo
+\title{ \input{Portada.tex} }
+
+\begin{document}
+	\maketitle %Hace que el título anterior sea el principal del documento
+	\newpage
+
+	\tableofcontents %Esta línea genera un indice a partir de las secciones y subsecciones creadas en el documento
+	\newpage
+
+	\section{Introducci\'on}
+		El objetivo del presente informe consiste en mostrar los algoritmos desarrollados a lo largo del cuatrimestre con sus correspondientes resultados de ejecuci\'on. Todos los algoritmos, junto a este informe, se encuentran en \url{https://github.com/APivetta/metodos-numericos} 
+
+	\section{Aproximaci\'on num\'erica y errores}
+		Se prueban dos m\'etodos para resolver la expresi\'on: $I_n = \int_{0}^{1} \frac{x^n}{x + 10} dx$
+
+		\subsection{M\'etodo con mayor error}
+ 			\lstinputlisting{../Error/in_malo.m}
+ 			Resultado:
+ 			\lstinputlisting{../Error/in_malo.out}
+
+		\subsection{M\'etodo con menor error}
+ 			\lstinputlisting{../Error/in_bueno.m}
+ 			Resultado:
+ 			\lstinputlisting{../Error/in_bueno.out}
+
+	\section{Ceros de funciones}
+
+		\subsection{Punto Fijo}
+ 			\lstinputlisting{../Ceros/puntoFijo.m}
+ 			Resultado:
+ 			\lstinputlisting{../Ceros/puntoFijo.out}
+
+		\subsection{Regula Falsi}
+ 			\lstinputlisting{../Ceros/regulaFalsi.m}
+ 			Resultado:
+ 			\lstinputlisting{../Ceros/regulaFalsi.out}
+
+		\subsection{Secante}
+ 			\lstinputlisting{../Ceros/secante.m}
+ 			Resultado:
+ 			\lstinputlisting{../Ceros/secante.out}
+
+		\subsection{Newton Raphson}
+ 			\lstinputlisting{../Ceros/newtonRaphson.m}
+ 			Resultado:
+ 			\lstinputlisting{../Ceros/newtonRaphson.out}
+
+	\section{Interpolaci\'on}
+
+		\subsection{Lagrange}
+ 			\lstinputlisting{../Interpolacion/lagrange.m}
+ 			Resultado:
+ 			\lstinputlisting{../Interpolacion/lagrange.out}
+
+	\section{Aproximaci\'on de funciones}
+
+		\subsection{Regresion lineal}
+ 			\lstinputlisting{../Aproximacion/regresionLineal.m}
+ 			Resultado:
+ 			\lstinputlisting{../Aproximacion/regresionLineal.out}
+
+	\section{Integraci\'on num\'erica}
+
+		\subsection{Trapecios}
+ 			\lstinputlisting{../Integracion/trapecio.m}
+ 			Resultado:
+ 			\lstinputlisting{../Integracion/trapecio.out}
+
+		\subsection{Romberg}
+ 			\lstinputlisting{../Integracion/romberg.m}
+ 			Resultado:
+ 			\lstinputlisting{../Integracion/romberg.out}
+
+		\subsection{Simpson}
+ 			\lstinputlisting{../Integracion/simpson.m}
+ 			Resultado:
+ 			\lstinputlisting{../Integracion/simpson.out}
+
+	\section{Ecuaciones diferenciales}
+
+		\subsection{Euler}
+ 			\lstinputlisting{../EDO/euler.m}
+ 			Resultado:
+ 			\lstinputlisting{../EDO/euler.out}
+
+		\subsection{Euler Mejorado}
+ 			\lstinputlisting{../EDO/eulerMejorado.m}
+ 			Resultado:
+ 			\lstinputlisting{../EDO/eulerMejorado.out}
+
+		\subsection{Runge-Kutta}
+ 			\lstinputlisting{../EDO/rungeKutta.m}
+ 			Resultado:
+ 			\lstinputlisting{../EDO/rungeKutta.out}
+
+	\section{Sistemas de ecuaciones}
+
+		\subsection{Gauss}
+ 			\lstinputlisting{../SistemasDeEcuaciones/gauss.m}
+ 			Resultado:
+ 			\lstinputlisting{../SistemasDeEcuaciones/gauss.out}
+
+\end{document}
+
+

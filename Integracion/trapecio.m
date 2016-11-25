@@ -5,6 +5,6 @@ function s = trapecios(n,a,b,f)
 	s = (f(a) + f(b) + sum(y(2:n))*2 ) * h/2;
 endfunction
 
-s = trapecios(1,1,2,@(x) (4))
-s = trapecios(1,1,2,@(x) (x))
-s = trapecios(4,1,2,@(x) (x^2))
+s1 = trapecios(1,1,2,@(x) (4))
+s2 = trapecios(1,1,2,@(x) (x))
+s3 = trapecios(4,1,2,@(x) (x^2))

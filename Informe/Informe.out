@@ -1,0 +1,23 @@
+\BOOKMARK [1][-]{section.1}{Introducci\363n}{}% 1
+\BOOKMARK [1][-]{section.2}{Aproximaci\363n num\351rica y errores}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{M\351todo con mayor error}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{M\351todo con menor error}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{Ceros de funciones}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Punto Fijo}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Regula Falsi}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.3}{Secante}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.4}{Newton Raphson}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{Interpolaci\363n}{}% 10
+\BOOKMARK [2][-]{subsection.4.1}{Lagrange}{section.4}% 11
+\BOOKMARK [1][-]{section.5}{Aproximaci\363n de funciones}{}% 12
+\BOOKMARK [2][-]{subsection.5.1}{Regresion lineal}{section.5}% 13
+\BOOKMARK [1][-]{section.6}{Integraci\363n num\351rica}{}% 14
+\BOOKMARK [2][-]{subsection.6.1}{Trapecios}{section.6}% 15
+\BOOKMARK [2][-]{subsection.6.2}{Romberg}{section.6}% 16
+\BOOKMARK [2][-]{subsection.6.3}{Simpson}{section.6}% 17
+\BOOKMARK [1][-]{section.7}{Ecuaciones diferenciales}{}% 18
+\BOOKMARK [2][-]{subsection.7.1}{Euler}{section.7}% 19
+\BOOKMARK [2][-]{subsection.7.2}{Euler Mejorado}{section.7}% 20
+\BOOKMARK [2][-]{subsection.7.3}{Runge-Kutta}{section.7}% 21
+\BOOKMARK [1][-]{section.8}{Sistemas de ecuaciones}{}% 22
+\BOOKMARK [2][-]{subsection.8.1}{Gauss}{section.8}% 23

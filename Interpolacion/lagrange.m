@@ -1,5 +1,5 @@
 function s = lagrange(x,y,r)
-	n = length(x)
+	n = length(x);
 	s = 0;
 	for k = 1 : n
 		p = 1;

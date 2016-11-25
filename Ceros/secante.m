@@ -14,4 +14,5 @@ function [x,t] = secante(x0,x1,f,eps,n)
 	endwhile
 endfunction
 
-[x,t] = secante(0,1,"exp(-x) - x",10^-6,20)			
+[x,t] = secante(0,1,"exp(-x) - x",10^-6,20);
+x
